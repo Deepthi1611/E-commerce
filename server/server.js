@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 6000;
 
 // create a database connection
 mongoose.connect('mongodb+srv://deepthipurijala:mNEvDBTn57geZWCc@cluster0.m83eq.mongodb.net/')
-.then(() => console.log('Mongo DB connected'))
+.then(() => console.log('Mongo DB got connected'))
 .catch((err) => console.log('error connecting Mongo DB', err))
 
 // configuring cors
